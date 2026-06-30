@@ -1,0 +1,150 @@
+{
+  "site": {
+    "brand": "Brandy.Banks",
+    "title": "Brandy Banks | Model, Founder & Host",
+    "description": "Brandy Banks is a model and digital creator, founder of Diamonds & Smoke Ent. and Noir Sleepwear, and host of the show Under Pressure. One place for all of it.",
+    "domain": "brandybanks-site.vercel.app",
+    "email": ""
+  },
+  "social": {
+    "instagram": "https://www.instagram.com/everybodyhatesbrandy/",
+    "tiktok": "",
+    "youtube": "",
+    "snapchat": "",
+    "shopmy": "",
+    "cashapp": "",
+    "venmo": "",
+    "paypal": "",
+    "wishlist": ""
+  },
+  "stats": [
+    { "n": "3", "l": "BRANDS I'VE BUILT" },
+    { "n": "NOIR", "l": "SLEEPWEAR LINE" },
+    { "n": "ON AIR", "l": "UNDER PRESSURE" },
+    { "n": "OPEN", "l": "FOR COLLABS & BOOKINGS" }
+  ],
+  "marquee": [
+    "Model",
+    "Founder",
+    "Host",
+    "Noir Sleepwear",
+    "Diamonds & Smoke",
+    "Under Pressure",
+    "Bookings Open"
+  ],
+  "home": {
+    "kicker": "MODEL · FOUNDER · HOST",
+    "h1line1": "BRANDY",
+    "h1line2": "BANKS",
+    "sub_bold": "Model, founder, and the face of my own brands.",
+    "sub_rest": "I run Diamonds & Smoke Ent., design Noir Sleepwear, and host Under Pressure. One home for all of it, and the easiest way to book me.",
+    "portrait": "/assets/headshot.jpg",
+    "portraitTag": "BRANDY",
+    "portraitTagSub": "MODEL · FOUNDER · HOST",
+    "primaryCtaLabel": "Work With Me",
+    "ghostCtaLabel": "See The Brands",
+    "workEyebrow": "WHAT I DO",
+    "workTitle": "THE BRANDS",
+    "blocks": []
+  },
+  "pages": {
+    "modeling": {
+      "nav": "Modeling",
+      "eyebrow": "IN FRONT OF THE LENS",
+      "title": "MODELING",
+      "intro": "Editorial, campaign, and brand work. I model for my own labels and collaborate with brands that match the vibe: bold, luxe, and unapologetic. Want to shoot or feature me? Reach out.",
+      "videoId": "",
+      "videoCaption": "",
+      "gallery": [
+        { "src": "/media/work_1.jpg", "alt": "Brandy Banks editorial campaign", "caption": "EDITORIAL" },
+        { "src": "/media/work_2.jpg", "alt": "Brandy Banks studio shoot", "caption": "STUDIO" },
+        { "src": "/media/work_3.jpg", "alt": "Brandy Banks brand collaboration", "caption": "IN MOTION" }
+      ],
+      "ctaLabel": "Book A Shoot",
+      "blocks": []
+    },
+    "acting": {
+      "nav": "Sleepwear",
+      "eyebrow": "MY LABEL",
+      "title": "NOIR SLEEPWEAR",
+      "intro": "Noir Sleepwear is my luxe sleepwear line: silk, lace, and pieces made to make you feel like the moment. Built for confidence, designed to be seen. DM me for drops and details.",
+      "videoId": "",
+      "videoCaption": "",
+      "gallery": [
+        { "src": "/media/press_1.jpg", "alt": "Noir Sleepwear debut collection", "caption": "THE COLLECTION" },
+        { "src": "/media/press_2.jpg", "alt": "Noir Sleepwear silk and lace pieces", "caption": "SILK & LACE" },
+        { "src": "/media/press_3.jpg", "alt": "Noir Sleepwear after dark", "caption": "AFTER DARK" }
+      ],
+      "ctaLabel": "Ask About Noir",
+      "blocks": []
+    },
+    "content-creation": {
+      "nav": "Under Pressure",
+      "eyebrow": "THE SHOW",
+      "title": "UNDER PRESSURE",
+      "intro": "Under Pressure is my show: real conversations, no filter. I sit down with people worth hearing and we get into it. Catch new episodes and the behind the scenes here.",
+      "videoId": "",
+      "videoCaption": "",
+      "gallery": [
+        { "src": "/media/social_1.jpg", "alt": "Under Pressure show hosted by Brandy Banks", "caption": "THE SHOW" },
+        { "src": "/media/social_2.jpg", "alt": "Under Pressure podcast episodes", "caption": "EVERY WEEK" },
+        { "src": "/media/social_3.jpg", "alt": "Behind the mic on Under Pressure", "caption": "BACKSTAGE" }
+      ],
+      "ctaLabel": "Watch & Follow",
+      "blocks": []
+    },
+    "about": {
+      "nav": "About",
+      "eyebrow": "THE STORY",
+      "title": "ABOUT BRANDY",
+      "heroImage": "/media/about_hero.jpg",
+      "big": "Model.|Founder.|Built different.",
+      "paragraphs": [
+        "I'm Brandy Banks. Model, mom, and the woman behind Diamonds & Smoke Ent. I never wait for permission. I build my own tables.",
+        "Between modeling, running Noir Sleepwear, and hosting Under Pressure, I'm building a brand that's all me. If you want to collaborate, book me, or feature me, my DMs are open."
+      ],
+      "pills": [
+        "MODEL",
+        "FOUNDER",
+        "HOST",
+        "CREATOR"
+      ],
+      "videoId": "",
+      "videoCaption": "",
+      "guide": {
+        "eyebrow": "NOW AVAILABLE",
+        "title": "NOIR SLEEPWEAR",
+        "body": "My luxe sleepwear line. Silk, lace, and pieces made to be seen. Message me for drops, sizing, and details.",
+        "image": "/assets/guide.jpg",
+        "ctaLabel": "Ask About Noir",
+        "ctaHref": "https://www.instagram.com/everybodyhatesbrandy/"
+      },
+      "partner": {
+        "code": "",
+        "text_pre": "",
+        "text_rest": "",
+        "ctaLabel": "",
+        "ctaHref": ""
+      },
+      "blocks": []
+    },
+    "contact": {
+      "nav": "Contact",
+      "eyebrow": "GET IN TOUCH",
+      "title": "Let's talk",
+      "intro": "Bookings, collabs, features, or press. The quickest way to reach me is a DM on Instagram. Tell me what you've got in mind.",
+      "connectEyebrow": "Find Me",
+      "blocks": []
+    }
+  },
+  "promoLinks": [],
+  "booking": {
+    "eyebrow": "GET IN TOUCH",
+    "title": "Let's work together",
+    "intro": "Bookings, collabs, features, or just to say hi. The fastest way to reach me is a DM on Instagram.",
+    "ctaLabel": "Message me on Instagram",
+    "url": "https://www.instagram.com/everybodyhatesbrandy/",
+    "phone": "",
+    "note": ""
+  }
+}
