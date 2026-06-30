@@ -27,7 +27,7 @@ export default async function About() {
             <h1 className="display"><Edit path="pages.about.title">{p.title}</Edit></h1>
           </div>
           {p.heroImage ? (
-            <div className="about-hero-img"><ZoomImg src={p.heroImage} editPath="pages.about.heroImage" alt={c.site.brand} /></div>
+            <div className="about-hero-img"><ZoomImg src={p.heroImage} editPath="pages.about.heroImage" alt={c.site.brand} eager /></div>
           ) : null}
         </div>
       </section>

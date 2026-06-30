@@ -366,3 +366,6 @@ section.block{padding:58px 0}
 .floaty .cap,.feed-item .cap,.tgal-item .cap{backdrop-filter:blur(6px);border:1px solid var(--line)}
 .kicker,.eyebrow{color:var(--blue)}
 body{background:radial-gradient(1200px 700px at 80% -5%, rgba(216,178,95,.07), transparent 60%),radial-gradient(900px 600px at -10% 20%, rgba(196,132,132,.05), transparent 60%),var(--cream)}
+
+/* feature panel is a light spotlight card -> dark body text for contrast */
+.feature p{color:rgba(12,11,16,.74)}
