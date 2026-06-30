@@ -29,13 +29,15 @@ export default async function Home() {
               <h1 className="display"><Edit as="span" path="home.h1line1">{h.h1line1}</Edit><Edit as="span" className="line2" path="home.h1line2">{h.h1line2}</Edit></h1>
               <p className="hero-sub"><b><Edit path="home.sub_bold">{h.sub_bold}</Edit></b> <Edit path="home.sub_rest">{h.sub_rest}</Edit></p>
               <div className="hero-actions">
-                <EmailButton email={c.site.email} subject="Collab / Booking Inquiry" className="btn btn-primary" label={`${h.primaryCtaLabel} →`} />
-                <a href={c.social.instagram} target="_blank" rel="noopener" className="btn btn-ghost">{h.ghostCtaLabel}</a>
+                {c.social.instagram
+                  ? <a href={c.social.instagram} target="_blank" rel="noopener" className="btn btn-primary">{h.primaryCtaLabel} →</a>
+                  : (c.site.email ? <EmailButton email={c.site.email} subject="Collab / Booking Inquiry" className="btn btn-primary" label={`${h.primaryCtaLabel} →`} /> : null)}
+                <a href="#brands" className="btn btn-ghost">{h.ghostCtaLabel}</a>
               </div>
             </div>
             <div className="portrait-col">
               <div className="portrait">
-                <ZoomImg src={h.portrait} editPath="home.portrait" alt={c.site.brand} />
+                <ZoomImg src={h.portrait} editPath="home.portrait" alt={c.site.brand} eager />
                 <div className="tag"><Edit path="home.portraitTag">{h.portraitTag}</Edit><small><Edit path="home.portraitTagSub">{h.portraitTagSub}</Edit></small></div>
               </div>
             </div>
@@ -55,7 +57,7 @@ export default async function Home() {
 
       <Marquee items={c.marquee} />
 
-      <section className="block">
+      <section className="block" id="brands">
         <div className="wrap">
           <div className="eyebrow"><Edit path="home.workEyebrow">{h.workEyebrow}</Edit></div>
           <h2 className="display" style={{ fontSize: 'clamp(38px,6vw,76px)' }}><Edit path="home.workTitle">{h.workTitle}</Edit></h2>

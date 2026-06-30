@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import { createPortal } from 'react-dom';
 
-export default function ZoomImg({ src, alt, editPath }) {
+export default function ZoomImg({ src, alt, editPath, eager }) {
   const [open, setOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
   useEffect(() => { setMounted(true); }, []);
@@ -20,7 +20,7 @@ export default function ZoomImg({ src, alt, editPath }) {
     </div>, document.body) : null;
   return (
     <>
-      <img src={src} alt={alt} loading="lazy" data-edit-img={editPath || undefined} onClick={() => setOpen(true)} style={{ cursor: 'zoom-in' }} />
+      <img src={src} alt={alt} loading={eager ? 'eager' : 'lazy'} data-edit-img={editPath || undefined} onClick={() => setOpen(true)} style={{ cursor: 'zoom-in' }} />
       {overlay}
     </>
   );
